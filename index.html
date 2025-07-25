@@ -1,92 +1,170 @@
 
-<!DOCTYPE html><html lang="ar" dir="rtl">
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>متجر الشحن الرقمي</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>سيف المستفز</title>
   <style>
     body {
-      font-family: 'Tahoma', sans-serif;
-      background: #111;
+      font-family: 'Arial', sans-serif;
+      background-color: #0f0f0f;
       color: #fff;
       margin: 0;
       padding: 0;
     }
     header {
-      background: #222;
+      background-color: #1f1f1f;
       padding: 20px;
-      text-align: center;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    header img {
+      border-radius: 50%;
+      width: 60px;
+      height: 60px;
+    }
+    header h1 {
+      margin: 0;
       font-size: 24px;
-      font-weight: bold;
     }
-    .services {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-      gap: 20px;
+    section {
       padding: 20px;
+      border-bottom: 1px solid #333;
     }
-    .card {
-      background: #1e1e1e;
-      padding: 20px;
-      border-radius: 10px;
-      box-shadow: 0 0 10px rgba(0,0,0,0.5);
-      text-align: center;
+    .section-title {
+      display: flex;
+      align-items: center;
+      gap: 10px;
     }
-    .card h3 {
-      margin-bottom: 10px;
-      color: #0ff;
+    .section-title img {
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
     }
-    .card p {
-      margin-bottom: 15px;
-    }
-    .btn {
-      background: #0f0;
-      color: #000;
-      padding: 10px 20px;
-      text-decoration: none;
-      border-radius: 5px;
-      transition: 0.3s;
-    }
-    .btn:hover {
-      background: #0c0;
-    }
-    footer {
-      text-align: center;
-      padding: 20px;
-      background: #222;
-    }
-    .whatsapp {
-      background: #25D366;
-      color: white;
-      padding: 10px 20px;
-      text-decoration: none;
-      border-radius: 30px;
-      font-weight: bold;
-      display: inline-block;
+    ul {
       margin-top: 10px;
+    }
+    ul li {
+      margin-bottom: 5px;
+    }
+    .contact {
+      text-align: center;
+      padding: 30px;
+    }
+    .contact img {
+      width: 80px;
+      height: 80px;
+      border-radius: 50%;
+      margin-bottom: 10px;
+    }
+    .contact a {
+      display: inline-block;
+      background-color: #25D366;
+      color: white;
+      text-decoration: none;
+      padding: 10px 20px;
+      border-radius: 5px;
+      font-size: 18px;
     }
   </style>
 </head>
 <body>
-  <header>متجر الشحن الرقمي</header>  <section class="services">
-    <div class="card">
-      <h3>شحن جواهر فري فاير</h3>
-      <p>اختر عدد الجواهر واطلب الآن.</p>
-      <a href="#" class="btn">اطلب الآن</a>
+  <header>
+    <h1>سيف المستفز</h1>
+    <img src="saif.jpg" alt="سيف المستفز" />
+  </header>
+
+  <section>
+    <div class="section-title">
+      <img src="saif.jpg" alt="icon" />
+      <h2>شحن الألعاب</h2>
     </div>
-    <div class="card">
-      <h3>شحن شدات ببجي</h3>
-      <p>اختر الباقة المناسبة لك.</p>
-      <a href="#" class="btn">اطلب الآن</a>
+    <ul>
+      <li>فري فاير</li>
+      <li>ببجي (العالمية والكورية)</li>
+      <li>كول أوف ديوتي</li>
+      <li>فيفا موبايل</li>
+      <li>موبايل ليجند</li>
+      <li>فورتنايت</li>
+      <li>Roblox</li>
+    </ul>
+  </section>
+
+  <section>
+    <div class="section-title">
+      <img src="saif.jpg" alt="icon" />
+      <h2>تزويد المتابعين</h2>
     </div>
-    <div class="card">
-      <h3>زيادة متابعين</h3>
-      <p>تيك توك، إنستا، فيسبوك بأسعار منافسة.</p>
-      <a href="#" class="btn">اطلب الآن</a>
+    <ul>
+      <li>متابعين إنستجرام</li>
+      <li>متابعين تيك توك</li>
+      <li>فيسبوك</li>
+      <li>لايكات وتعليقات</li>
+      <li>مشاهدات ستوري وريلز</li>
+      <li>تفاعل كامل</li>
+    </ul>
+  </section>
+
+  <section>
+    <div class="section-title">
+      <img src="saif.jpg" alt="icon" />
+      <h2>توثيق الحسابات والأرقام</h2>
     </div>
-  </section>  <footer>
-    <p>للطلب والتواصل:</p>
-    <a class="whatsapp" href="https://wa.me/201013782964" target="_blank">تواصل عبر واتساب</a>
-  </footer>
+    <ul>
+      <li>توثيق إنستجرام / فيسبوك / تيك توك / سناب</li>
+      <li>توثيق واتساب</li>
+      <li>أرقام وهمية للتفعيل</li>
+    </ul>
+  </section>
+
+  <section>
+    <div class="section-title">
+      <img src="saif.jpg" alt="icon" />
+      <h2>تصميم المواقع الإلكترونية</h2>
+    </div>
+    <ul>
+      <li>مواقع شخصية</li>
+      <li>صفحات هبوط</li>
+      <li>مواقع خدمية</li>
+      <li>تعديل مواقع جاهزة</li>
+      <li>ربط استضافة ودومين</li>
+      <li>تصميم متوافق مع الجوال</li>
+    </ul>
+  </section>
+
+  <section>
+    <div class="section-title">
+      <img src="saif.jpg" alt="icon" />
+      <h2>أرقام فيك لجميع الدول</h2>
+    </div>
+    <ul>
+      <li>أرقام واتساب</li>
+      <li>أرقام أمريكية/بريطانية</li>
+      <li>تفعيل تيليجرام/إنستجرام</li>
+      <li>أرقام مؤقتة</li>
+      <li>تحديث يومي</li>
+    </ul>
+  </section>
+
+  <section>
+    <div class="section-title">
+      <img src="saif.jpg" alt="icon" />
+      <h2>شراء حسابات موثقة</h2>
+    </div>
+    <ul>
+      <li>حسابات إنستجرام / فيسبوك / سناب</li>
+      <li>حسابات تيليجرام برقم دولي</li>
+      <li>حسابات جيميل و ياهو</li>
+      <li>تسليم فوري</li>
+    </ul>
+  </section>
+
+  <div class="contact">
+    <img src="saif.jpg" alt="سيف المستفز" />
+    <h2>تواصل معايا</h2>
+    <a href="https://wa.me/+201013782964" target="_blank">راسلني على واتساب</a>
+  </div>
 </body>
 </html>
